@@ -14,8 +14,8 @@ import ij.plugin.filter.PlugInFilter;
 import ij.process.ByteProcessor;
 import ij.process.ColorProcessor;
 import ij.process.ImageProcessor;
-import colorQuantization.ColorQuantizer;
-import colorQuantization.MedianCutQuantizer;
+import color.ColorQuantizer;
+import color.MedianCutQuantizer;
 
 
 public class Median_Cut_Quantization implements PlugInFilter {
